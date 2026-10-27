@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Rejoins l’équipe staff de NOCTURNE RP. Découvre les rôles et candidate pour faire vivre le serveur.">
+  <title>Recrutement staff — NOCTURNE RP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#accueil" aria-label="Nocturne RP, accueil"><span class="brand-mark">N</span><span>NOCTURNE<span class="brand-sub">ROLEPLAY · LOS SANTOS</span></span></a>
+    <nav aria-label="Navigation principale"><a href="#equipe">L’équipe</a><a href="#roles">Les rôles</a><a href="#candidature">Candidater</a></nav>
+    <a class="discord-link" href="https://discord.gg/TON-INVITATION" target="_blank" rel="noreferrer">Discord <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-image" role="img" aria-label="Los Santos au coucher du soleil"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> LES RECRUTEMENTS SONT OUVERTS</div>
+        <h1>FAIS PARTIE<br>DE <span class="accent">L’HISTOIRE.</span></h1>
+        <p>Los Santos ne dort jamais. Aide-nous à faire vivre une ville où chaque rencontre compte et chaque histoire mérite sa place.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#candidature">Rejoindre le staff <span>↗</span></a><a class="text-link" href="#roles">Découvrir les rôles <span>↓</span></a></div>
+      </div>
+      <div class="hero-note"><span>34°03′N&nbsp; 118°15′W</span><span>LOS SANTOS, SAN ANDREAS</span></div>
+      <a class="scroll-cue" href="#equipe"><span></span> DÉFILER</a>
+    </section>
+
+    <section class="intro section" id="equipe">
+      <div class="section-kicker">01 / L’ESPRIT NOCTURNE</div>
+      <div class="intro-body"><h2>Un bon serveur,<br>c’est d’abord <span class="muted">une équipe.</span></h2><div class="intro-copy"><p>Notre staff, c’est le cœur du serveur. Des personnes présentes, à l’écoute et passionnées, qui rendent chaque session plus juste, plus fluide et surtout plus mémorable.</p><p>On cherche des personnalités fiables et bienveillantes, prêtes à s’impliquer dans un projet qui grandit. L’expérience aide. L’état d’esprit fait la différence.</p></div></div>
+      <div class="values"><div><span>01</span><strong>Écoute avant tout</strong><small>Chaque joueur mérite une réponse.</small></div><div><span>02</span><strong>Juste et impartial</strong><small>Les mêmes règles pour tout le monde.</small></div><div><span>03</span><strong>Le jeu d’abord</strong><small>On protège les histoires, pas les égos.</small></div></div>
+    </section>
+
+    <section class="roles-section section" id="roles">
+      <div class="section-kicker">02 / TROUVE TA PLACE</div><div class="roles-heading"><h2>La ville a besoin<br>de <span class="muted">toi.</span></h2><p>Choisis le rôle qui te ressemble.<br>On t’accompagne pour la suite.</p></div>
+      <div class="role-grid">
+        <article class="role-card"><div class="role-top"><span class="role-icon">✳</span><span class="role-number">01</span></div><h3>Modérateur·rice</h3><p>Tu veilles à la bonne ambiance, aides les joueurs et fais respecter les règles avec calme et discernement.</p><div class="tag-row"><span>Écoute</span><span>Présence</span><span>Diplomatie</span></div></article>
+        <article class="role-card"><div class="role-top"><span class="role-icon">⌘</span><span class="role-number">02</span></div><h3>Support joueur</h3><p>Tu es le premier contact des joueurs. Tu réponds à leurs questions et les aides à trouver leur place en ville.</p><div class="tag-row"><span>Entraide</span><span>Patience</span><span>Communication</span></div></article>
+        <article class="role-card"><div class="role-top"><span class="role-icon">◈</span><span class="role-number">03</span></div><h3>Animateur·rice</h3><p>Tu imagines et organises des événements qui rassemblent les habitants et créent de belles histoires.</p><div class="tag-row"><span>Créativité</span><span>Organisation</span><span>Roleplay</span></div></article>
+      </div>
+      <p class="role-footnote">Tu as une autre spécialité en tête ? <a href="#candidature">Parle-nous de ton idée ↗</a></p>
+    </section>
+
+    <section class="apply section" id="candidature">
+      <div class="apply-copy"><div class="section-kicker">03 / À TOI DE JOUER</div><h2>Prêt·e à<br>entrer <span class="accent">en scène ?</span></h2><p>Présente-toi, raconte-nous ce qui te motive et indique le rôle qui t’intéresse. On revient vers toi sur Discord.</p><div class="apply-aside"><span class="live-dot"></span><span>Quelques minutes suffisent.<br>Pas besoin d’un CV parfait, juste d’être toi.</span></div></div>
+      <form class="application-form" id="application-form">
+        <div class="field-row"><label>Ton pseudo Discord<input name="discord" placeholder="ex. alexandre#1234" required maxlength="60"></label><label>Ton âge<input name="age" type="number" placeholder="18" min="16" max="99" required></label></div>
+        <label>Le rôle qui t’intéresse<select name="role" required><option value="" disabled selected>Choisis un rôle</option><option>Modérateur·rice</option><option>Support joueur</option><option>Animateur·rice</option><option>Autre / plusieurs rôles</option></select></label>
+        <label>Pourquoi veux-tu rejoindre l’équipe ?<textarea name="motivation" rows="4" placeholder="Parle-nous de toi et de ce qui te motive…" required minlength="30" maxlength="1200"></textarea><span class="field-hint">30 caractères minimum</span></label>
+        <button class="button button-primary submit-button" type="submit">Préparer ma candidature <span>↗</span></button>
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer><a class="brand footer-brand" href="#accueil"><span class="brand-mark">N</span><span>NOCTURNE<span class="brand-sub">ROLEPLAY · LOS SANTOS</span></span></a><span>UN PROJET COMMUNAUTAIRE, PORTÉ PAR SES JOUEURS.</span><a href="https://discord.gg/TON-INVITATION" target="_blank" rel="noreferrer">REJOINS-NOUS SUR DISCORD ↗</a><span>© 2026 NOCTURNE RP</span></footer>
+</body>
+</html>
